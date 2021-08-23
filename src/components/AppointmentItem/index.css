@@ -1,0 +1,35 @@
+.appointmentItem {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  width: 330px;
+  height: 120px;
+  list-style-type: none;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+.appointment-name {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 19px;
+}
+.start-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.date-display {
+  color: grey;
+  font-weight: 500px;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
